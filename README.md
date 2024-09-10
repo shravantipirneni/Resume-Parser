@@ -28,4 +28,5 @@
     ```
 3. Output will be displayed in the terminal or saved to a file.
 
-## File Structure
+## Customization
+Edit `parser_utils.py` to add custom sections (e.g., certifications or languages). Update regex or parsing patterns as needed.
