@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,7 +45,10 @@
 <body>
     <h1>Resume Scorer</h1>
     <div class="center-container">
-        <button onclick="alert('Pending score for upload)">Upload Resume</button>
+        <form id="resume-form" action="/upload_resume" method="post" enctype="multipart/form-data">
+            <input type="file" name="resume" id="resume" accept=".pdf, .docx, .doc" required>
+            <button type="submit">Upload Resume</button>
+        </form>
     </div>
 </body>
 </html>
